@@ -2,8 +2,13 @@
     scroll-behavior: smooth;
 }
 
-
+/* For the Placeholder text */
 [contentEditable=true]:empty:not(:focus):before {
     content: attr(place-text);
     color: grey;
+}
+
+/* Remove contenteditable's border when on focus, From https://www.w3schools.com/howto/howto_css_contenteditable_border.asp */
+[contenteditable] {
+    outline: 0px solid transparent;
 }
