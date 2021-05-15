@@ -12,3 +12,8 @@
 [contenteditable] {
     outline: 0px solid transparent;
 }
+
+/* To mirror certain icons as the iconpack doesn't include mirrored ones */
+.mirror1 {
+    transform: rotateY(180deg);
+}
